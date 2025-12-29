@@ -1,0 +1,6 @@
+@boleto.API_HostAddress = http://localhost:5017
+
+GET {{boleto.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,80 @@
+# Visual Studio / .NET / C# .gitignore
+# Generated for C# projects (Visual Studio, dotnet CLI, Rider)
+
+## Build Folders
+bin/
+obj/
+out/
+**/bin/
+**/obj/
+
+## Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+.idea/*
+*.sln.iml
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## NuGet
+*.nupkg
+# The packages folder can be ignored because of PackageReference restore
+packages/
+project.lock.json
+project.fragment.lock.json
+
+## Microsoft Azure Build Artifacts
+csx/
+*.build.csdef
+
+## Dotnet publish
+publish/
+
+## OS generated files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+## Test results
+TestResults/
+*.trx
+coverage*/
+*.coverage
+*.coveragexml
+
+## NCrunch
+*.ncrunch*
+nCrunchTemp_
+
+## Visual Studio Code workspace
+.vscode/
+
+## Logs
+*.log
+
+## Certificates
+*.pfx
+
+## Temporary files
+*.tmp
+*.temp
+
+## Dotnet tool and local runtimes
+/.dotnet/
+/.dotnet_tools/
+
+## Entity Framework
+Migrations/**/*.Designer.cs
+
+## Rider and JetBrains backups
+*.sublime-workspace
+
+# End of file

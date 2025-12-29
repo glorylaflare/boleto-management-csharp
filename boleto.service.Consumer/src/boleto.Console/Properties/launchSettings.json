@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "boleto.Console": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

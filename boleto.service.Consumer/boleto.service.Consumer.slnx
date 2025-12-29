@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/boleto.Application/boleto.Application.csproj" />
+    <Project Path="src/boleto.Console/boleto.Console.csproj" />
+    <Project Path="src/boleto.Domain/boleto.Domain.csproj" />
+  </Folder>
+</Solution>
