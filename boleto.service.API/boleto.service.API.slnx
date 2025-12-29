@@ -4,5 +4,6 @@
     <Project Path="src/boleto.Application/boleto.Application.csproj" Id="7c39afcd-cde1-445e-b9d8-8c1058302f1f" />
     <Project Path="src/boleto.Domain/boleto.Domain.csproj" Id="d5790b43-8567-47b9-a4f0-cc955c369f11" />
     <Project Path="src/boleto.Infra/boleto.Infra.csproj" Id="4c6993b9-b146-4a90-8bdd-e3d66a6b74e1" />
+    <Project Path="src/boleto.Shared/boleto.Shared.csproj" Id="eebc77ea-3d60-47c6-bce7-a30a9c4e58b3" />
   </Folder>
 </Solution>
