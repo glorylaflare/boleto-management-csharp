@@ -3,5 +3,6 @@
     <Project Path="src/boleto.Application/boleto.Application.csproj" />
     <Project Path="src/boleto.Console/boleto.Console.csproj" />
     <Project Path="src/boleto.Domain/boleto.Domain.csproj" />
+    <Project Path="src/boleto.Shared/boleto.Shared.csproj" Id="54c76279-6ed2-4a7a-86c3-b1cc49c3ec10" />
   </Folder>
 </Solution>
