@@ -1,6 +1,6 @@
 ﻿using boleto.Domain.ValueObjects;
 
-namespace DefaultNamespace;
+namespace boleto.Domain.Models;
 
 public class Boleto
 {
