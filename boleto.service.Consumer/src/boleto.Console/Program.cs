@@ -1,6 +1,4 @@
-﻿using boleto.Console;
-using boleto.Console.Helper;
-using Microsoft.Extensions.DependencyInjection;
+﻿using boleto.Console.Helper;
 using Microsoft.Extensions.Hosting;
 
 var host = HostServiceConfiguration.HostConfiguration();
