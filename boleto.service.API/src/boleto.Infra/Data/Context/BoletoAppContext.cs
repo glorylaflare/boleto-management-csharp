@@ -1,11 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using boleto.Domain.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace boleto.Infra.Data.Context;
 
 public class BoletoAppContext : DbContext
 {
-    // TODO: Adicionar DbSets aqui, por exemplo:
-    // public DbSet<YourEntity> YourEntities { get; set; }
-
     public BoletoAppContext(DbContextOptions<BoletoAppContext> options) : base(options) { }
+
+    public DbSet<BankSlipPaymentBatchEntity> BankSlipPaymentBatches { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder) => 
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(BoletoAppContext).Assembly);
 }
