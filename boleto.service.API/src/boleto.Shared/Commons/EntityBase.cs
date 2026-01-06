@@ -1,4 +1,4 @@
-﻿namespace boleto.Shared.Base;
+﻿namespace boleto.Shared.Commons;
 
 public class EntityBase
 {
