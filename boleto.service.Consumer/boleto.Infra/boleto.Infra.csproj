@@ -10,13 +10,4 @@
     <PackageReference Include="MassTransit.Kafka" Version="9.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\boleto.Infra\boleto.Infra.csproj" />
-    <ProjectReference Include="..\boleto.Domain\boleto.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Commands\ProcessBankSlipBatch\" />
-  </ItemGroup>
-
 </Project>

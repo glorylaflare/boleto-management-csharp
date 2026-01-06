@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="boleto.Infra/boleto.Infra.csproj" Id="fb99c708-566b-416d-94fa-f57b4fee7e9b" />
     <Project Path="src/boleto.Application/boleto.Application.csproj" />
     <Project Path="src/boleto.Console/boleto.Console.csproj" />
     <Project Path="src/boleto.Domain/boleto.Domain.csproj" />
