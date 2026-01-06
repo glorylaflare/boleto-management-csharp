@@ -1,7 +1,7 @@
 ﻿using boleto.Application.Commands.NewFolder;
 using FluentValidation;
 
-namespace boleto.API.Halpers;
+namespace boleto.API.Helpers;
 
 public static class ValidatorHelper
 {

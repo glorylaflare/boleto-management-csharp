@@ -1,4 +1,4 @@
-using boleto.API.Halpers;
+using boleto.API.Helpers;
 using boleto.Application.Commands.NewFolder;
 using boleto.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
@@ -12,8 +12,9 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreatePaymentBatchCommand).Assembly));
 builder.Services.AddValidatorHelper();
+builder.Services.AddMassTransitHelper();
 
-// TODO: Ainda falta criar a string de conexão
+// TODO: Ainda falta criar a string de conexï¿½o
 builder.Services.AddDbContext<BoletoAppContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
