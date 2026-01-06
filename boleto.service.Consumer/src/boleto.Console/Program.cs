@@ -1,12 +1,8 @@
 ﻿using boleto.Console;
+using boleto.Console.Helper;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-var host = Host.CreateDefaultBuilder(args)
-    .ConfigureServices((context, services) =>
-    {
-        services.AddHostedService<Worker>();
-    })
-    .Build();
+var host = HostServiceConfiguration.HostConfiguration();
 
 await host.RunAsync();
