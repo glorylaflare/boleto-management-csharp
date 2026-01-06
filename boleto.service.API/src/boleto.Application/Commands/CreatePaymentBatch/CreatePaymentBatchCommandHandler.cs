@@ -1,5 +1,5 @@
 ﻿using boleto.Domain.Entity;
-using boleto.Domain.ValueObjetcs;
+using boleto.Domain.ValueObjects;
 using boleto.Shared.Events;
 using FluentResults;
 using FluentValidation;
