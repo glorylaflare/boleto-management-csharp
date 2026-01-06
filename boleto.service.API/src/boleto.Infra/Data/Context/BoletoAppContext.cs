@@ -5,7 +5,10 @@ namespace boleto.Infra.Data.Context;
 
 public class BoletoAppContext : DbContext
 {
+    public BoletoAppContext(DbContextOptions<BoletoAppContext> options) : base(options) { }
+
     public DbSet<BankSlipPaymentBatchEntity> BankSlipPaymentBatches { get; set; }
 
-    public BoletoAppContext(DbContextOptions<BoletoAppContext> options) : base(options) { }
+    protected override void OnModelCreating(ModelBuilder modelBuilder) => 
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(BoletoAppContext).Assembly);
 }
