@@ -1,4 +1,4 @@
-﻿namespace boleto.Domain.ValueObjetcs;
+﻿namespace boleto.Domain.ValueObjects;
 
 public class PaymentTitle
 {

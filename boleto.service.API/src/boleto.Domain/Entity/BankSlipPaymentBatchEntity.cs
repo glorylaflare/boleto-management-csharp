@@ -1,4 +1,4 @@
-﻿using boleto.Domain.ValueObjetcs;
+﻿using boleto.Domain.ValueObjects;
 using boleto.Shared.Commons;
 
 namespace boleto.Domain.Entity;
