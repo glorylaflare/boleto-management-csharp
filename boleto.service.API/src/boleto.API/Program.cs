@@ -1,5 +1,5 @@
 using boleto.API.Helpers;
-using boleto.Application.Commands.NewFolder;
+using boleto.Application.Commands.CreatePaymentBatch;
 using boleto.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 

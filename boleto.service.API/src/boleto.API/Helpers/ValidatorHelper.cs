@@ -1,4 +1,4 @@
-﻿using boleto.Application.Commands.NewFolder;
+﻿using boleto.Application.Commands.CreatePaymentBatch;
 using FluentValidation;
 
 namespace boleto.API.Helpers;

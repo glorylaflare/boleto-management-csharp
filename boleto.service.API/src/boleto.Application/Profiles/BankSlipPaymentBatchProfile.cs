@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using boleto.Application.Commands.NewFolder;
+using boleto.Application.Commands.CreatePaymentBatch;
 using boleto.Domain.Entity;
 
 namespace boleto.Application.Profiles;

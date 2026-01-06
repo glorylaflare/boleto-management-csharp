@@ -1,5 +1,4 @@
-﻿using boleto.Application.Commands.NewFolder;
-using boleto.Domain.Entity;
+﻿using boleto.Domain.Entity;
 using boleto.Domain.ValueObjetcs;
 using boleto.Shared.Events;
 using FluentResults;

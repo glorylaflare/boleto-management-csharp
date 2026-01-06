@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace boleto.Application.Commands.NewFolder;
+namespace boleto.Application.Commands.CreatePaymentBatch;
 
 public class CreatePaymentBatchCommandValidation : AbstractValidator<CreatePaymentBatchCommand>
 {

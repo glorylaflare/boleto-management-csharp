@@ -1,7 +1,7 @@
 ﻿using FluentResults;
 using MediatR;
 
-namespace boleto.Application.Commands.NewFolder;
+namespace boleto.Application.Commands.CreatePaymentBatch;
 
 public class CreatePaymentBatchCommand : IRequest<Result<int>>
 {
